@@ -1,6 +1,6 @@
 # Git  Notes
 ## commands
-command for **creating a new user**: *$Git config --user.name "valor"*
+command for **creating a new user**: *$Git config --user.name "valor"*<br>
 command for **adding email user**: *$Git config --email "valor"*
 command for **adding a new repository** git= *$git init (debe iniciarse en el directorio en el que se iniciara el proyecto)*
 
