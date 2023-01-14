@@ -21,14 +21,14 @@ The last step is commiting files to the repository, **command for commiting**: *
 ## SSH keyh generation
 **encrypted ssh key generator command**:  sshckeygen command: *$ssh-keygen -t ed25519* (bst protocol recommended by github) *-C "moseshawkdev@gmail.com"*
 Press enter when asking to generate file.<br>
-ask for a enterphrase (optional)<br>
-**command for reading the generated file** , first for move to .ssh directiory, *$cd .ssh*, and *$cat id_ed25519.pub*<br>
+It would ask for a enterphrase as password for changges (optional)<br>
+**command for reading the generated file**: first for move to .ssh directiory, *$cd .ssh*, and *$cat id_ed25519.pub*<br>
 **command for confirming ssh key working**: *$eval "$(ssh-agent) -S)"*<br>
-**command for adding public key to private** *$ ssh-add ~/.ssh/id_ed25519*<br>
+**command for adding public key to private**:*$ ssh-add ~/.ssh/id_ed25519*<br>
 **command for veryfing comunication with github**: *$ssh -T git@github.com*
 
 ## Adding repositorys to remote (github)
 
-**command for adding local git to remote** *git remote add origin git@github.com:MosesHawk/Kodemia-Notes.git*<br>
+**command for adding local git to remote**: *git remote add origin git@github.com:MosesHawk/Kodemia-Notes.git*<br>
 **command for uploading commits to the remote repository**: *git push* first time with -set upstream <br>
 **complete command for uploading commits to remote**: *git push --set origin master* <--this is the name of the branch that is holding the commit<br>
